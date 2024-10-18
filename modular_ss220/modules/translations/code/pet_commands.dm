@@ -1,120 +1,120 @@
 //ORIGINAL FILE: code/datums/components/pet_commands/fetch.dm
 /datum/pet_command/point_targeting/fetch
-	speech_commands = list("fetch", "принес", "апорт", "лов")
+	speech_commands = list("fetch", "РїСЂРёРЅРµСЃ", "Р°РїРѕСЂС‚", "Р»РѕРІ")
 
 //ORIGINAL FILE: code/datums/components/pet_commands/pet_commands_basic.dm
 /datum/pet_command/idle
-	speech_commands = list("sit", "stay", "stop", "лежать", "место", "сидеть", "стоп", "стой", "стоять", "фу")
+	speech_commands = list("sit", "stay", "stop", "Р»РµР¶Р°С‚СЊ", "РјРµСЃС‚Рѕ", "СЃРёРґРµС‚СЊ", "СЃС‚РѕРї", "СЃС‚РѕР№", "СЃС‚РѕСЏС‚СЊ", "С„Сѓ")
 
 /datum/pet_command/free
-	speech_commands = list("free", "loose", "брысь", "вон", "гулять", "свобод", "ждать")
+	speech_commands = list("free", "loose", "Р±СЂС‹СЃСЊ", "РІРѕРЅ", "РіСѓР»СЏС‚СЊ", "СЃРІРѕР±РѕРґ", "Р¶РґР°С‚СЊ")
 
 /datum/pet_command/follow
-	speech_commands = list("heel", "follow", "айда", "идем", "за мной", "к ноге", "ко мне")
+	speech_commands = list("heel", "follow", "Р°Р№РґР°", "РёРґРµРј", "Р·Р° РјРЅРѕР№", "Рє РЅРѕРіРµ", "РєРѕ РјРЅРµ")
 
 /datum/pet_command/play_dead
-	speech_commands = list("play dead", "мертв", "притворись", "умри")
+	speech_commands = list("play dead", "РјРµСЂС‚РІ", "РїСЂРёС‚РІРѕСЂРёСЃСЊ", "СѓРјСЂРё")
 
 /datum/pet_command/point_targeting/attack
-	speech_commands = list("attack", "sic", "kill", "атак", "бить", "бей", "еби", "кус", "фас")
+	speech_commands = list("attack", "sic", "kill", "Р°С‚Р°Рє", "Р±РёС‚СЊ", "Р±РµР№", "РµР±Рё", "РєСѓСЃ", "С„Р°СЃ")
 
 /datum/pet_command/point_targeting/breed
-	speech_commands = list("breed", "consummate", "ебитес", "размнож")
+	speech_commands = list("breed", "consummate", "РµР±РёС‚РµСЃ", "СЂР°Р·РјРЅРѕР¶")
 
 /datum/pet_command/point_targeting/use_ability
-	speech_commands = list("shoot", "blast", "cast", "каст", "паф", "пиу", "стрел")
+	speech_commands = list("shoot", "blast", "cast", "РєР°СЃС‚", "РїР°С„", "РїРёСѓ", "СЃС‚СЂРµР»")
 
 //ORIGINAL FILE: code/modules/mob/living/basic/bots/cleanbot/cleanbot_ai.dm
 /datum/pet_command/point_targeting/clean
-	speech_commands = list("clean", "mop", "мыть", "убира", "убери", "чисти")
+	speech_commands = list("clean", "mop", "РјС‹С‚СЊ", "СѓР±РёСЂР°", "СѓР±РµСЂРё", "С‡РёСЃС‚Рё")
 
 //ORIGINAL FILE: code/modules/mob/living/basic/minebots/minebot_ai.dm
 /datum/pet_command/automate_mining
-	speech_commands = list("mine", "копа", "добыв", "бури")
+	speech_commands = list("mine", "РєРѕРїР°", "РґРѕР±С‹РІ", "Р±СѓСЂРё")
 
 /datum/pet_command/minebot_ability/light
-	speech_commands = list("light", "огни", "свет", "включ")
+	speech_commands = list("light", "РѕРіРЅРё", "СЃРІРµС‚", "РІРєР»СЋС‡")
 
 /datum/pet_command/minebot_ability/dump
-	speech_commands = list("dump", "ore", "выброс", "выкин", "руд")
+	speech_commands = list("dump", "ore", "РІС‹Р±СЂРѕСЃ", "РІС‹РєРёРЅ", "СЂСѓРґ")
 
 //ORIGINAL FILE: code/modules/mob/living/basic/farm_animals/bee/bee_ai_behavior.dm
 /datum/pet_command/point_targeting/attack/swirl
-	speech_commands = list("swirl", "spiral", "swarm", "рой", "атак", "бить", "куса", "куси")
+	speech_commands = list("swirl", "spiral", "swarm", "СЂРѕР№", "Р°С‚Р°Рє", "Р±РёС‚СЊ", "РєСѓСЃР°", "РєСѓСЃРё")
 
 /datum/pet_command/beehive/enter
-	speech_commands = list("enter", "home", "in", "домой", "домик", "прячь", "прята")
+	speech_commands = list("enter", "home", "in", "РґРѕРјРѕР№", "РґРѕРјРёРє", "РїСЂСЏС‡СЊ", "РїСЂСЏС‚Р°")
 
 /datum/pet_command/beehive/exit
-	speech_commands = list("exit", "leave", "out", "выйди", "выход", "покид", "покин")
+	speech_commands = list("exit", "leave", "out", "РІС‹Р№РґРё", "РІС‹С…РѕРґ", "РїРѕРєРёРґ", "РїРѕРєРёРЅ")
 
 /datum/pet_command/scatter
-	speech_commands = list("disperse", "spread", "scatter", "исчезн", "айда", "идем", "за мной", "ко мне", "охран", "след")
+	speech_commands = list("disperse", "spread", "scatter", "РёСЃС‡РµР·РЅ", "Р°Р№РґР°", "РёРґРµРј", "Р·Р° РјРЅРѕР№", "РєРѕ РјРЅРµ", "РѕС…СЂР°РЅ", "СЃР»РµРґ")
 
 //ORIGINAL FILE: code/modules/mob/living/basic/heretic/star_gazer.dm
 /datum/pet_command/point_targeting/attack/star_gazer
-	speech_commands = list("attack", "sic", "kill", "slash them", "атак", "бить", "куса", "куси", "фас", "реж", "резня")
+	speech_commands = list("attack", "sic", "kill", "slash them", "Р°С‚Р°Рє", "Р±РёС‚СЊ", "РєСѓСЃР°", "РєСѓСЃРё", "С„Р°СЃ", "СЂРµР¶", "СЂРµР·РЅСЏ")
 
 //ORIGINAL FILE: code/modules/mob/living/basic/icemoon/wolf/wolf_extras.dm
 /datum/pet_command/good_boy/wolf
-	speech_commands = list("good wolf", "волк", "пес", "пёс", "хорош")
+	speech_commands = list("good wolf", "РІРѕР»Рє", "РїРµСЃ", "РїС‘СЃ", "С…РѕСЂРѕС€")
 
 /datum/pet_command/follow/wolf
-	speech_commands = list("heel", "follow", "fylgja", "fyl", "айда", "идем", "за мной", "к ноге", "ко мне", "охран", "след")
+	speech_commands = list("heel", "follow", "fylgja", "fyl", "Р°Р№РґР°", "РёРґРµРј", "Р·Р° РјРЅРѕР№", "Рє РЅРѕРіРµ", "РєРѕ РјРЅРµ", "РѕС…СЂР°РЅ", "СЃР»РµРґ")
 
 //ORIGINAL FILE: code/modules/mob/living/basic/jungle/leaper/leaper_ai.dm
 /datum/pet_command/point_targeting/use_ability/flop
-	speech_commands = list("flop", "crush", "упади", "раздав", "дроби")
+	speech_commands = list("flop", "crush", "СѓРїР°РґРё", "СЂР°Р·РґР°РІ", "РґСЂРѕР±Рё")
 
 /datum/pet_command/point_targeting/use_ability/bubble
-	speech_commands = list("bubble", "shoot", "паф", "пиу", "стрел")
+	speech_commands = list("bubble", "shoot", "РїР°С„", "РїРёСѓ", "СЃС‚СЂРµР»")
 
 /datum/pet_command/untargeted_ability/blood_rain
-	speech_commands = list("blood", "rain", "volley", "кровь", "дождь", "залп")
+	speech_commands = list("blood", "rain", "volley", "РєСЂРѕРІСЊ", "РґРѕР¶РґСЊ", "Р·Р°Р»Рї")
 
 /datum/pet_command/untargeted_ability/summon_toad
-	speech_commands = list("frogs", "bombers", "лягушк", "бомб", "напад")
+	speech_commands = list("frogs", "bombers", "Р»СЏРіСѓС€Рє", "Р±РѕРјР±", "РЅР°РїР°Рґ")
 
 //ORIGINAL FILE: code/modules/mob/living/basic/jungle/seedling/seedling_ai.dm
 /datum/pet_command/point_targeting/use_ability/solarbeam
-	speech_commands = list("beam", "solar", "луч", "солн", "жги", "жечь")
+	speech_commands = list("beam", "solar", "Р»СѓС‡", "СЃРѕР»РЅ", "Р¶РіРё", "Р¶РµС‡СЊ")
 
 /datum/pet_command/point_targeting/use_ability/rapidseeds
-	speech_commands = list("rapid", "seeds", "volley", "каст", "паф", "пиу", "стрел", "семена", "залп")
+	speech_commands = list("rapid", "seeds", "volley", "РєР°СЃС‚", "РїР°С„", "РїРёСѓ", "СЃС‚СЂРµР»", "СЃРµРјРµРЅР°", "Р·Р°Р»Рї")
 
 //ORIGINAL FILE: code/modules/mob/living/basic/lavaland/goldgrub/goldgrub_ai.dm
 /datum/pet_command/grub_spit
-	speech_commands = list("spit", "ores", "руд", "выплюн", "дай")
+	speech_commands = list("spit", "ores", "СЂСѓРґ", "РІС‹РїР»СЋРЅ", "РґР°Р№")
 
 //ORIGINAL FILE: code/modules/mob/living/basic/lavaland/gutlunchers/gutlunchers_ai.dm
 /datum/pet_command/mine_walls
-	speech_commands = list("mine", "smash", "копа", "добыв", "лом", "бури")
+	speech_commands = list("mine", "smash", "РєРѕРїР°", "РґРѕР±С‹РІ", "Р»РѕРј", "Р±СѓСЂРё")
 
 //ORIGINAL FILE: code/modules/mob/living/basic/pets/dog/_dog.dm
 /datum/pet_command/follow/dog
-	speech_commands = list("heel", "follow", "walkies", "айда", "идем", "за мной", "к ноге", "ко мне", "охран", "след")
+	speech_commands = list("heel", "follow", "walkies", "Р°Р№РґР°", "РёРґРµРј", "Р·Р° РјРЅРѕР№", "Рє РЅРѕРіРµ", "РєРѕ РјРЅРµ", "РѕС…СЂР°РЅ", "СЃР»РµРґ")
 
 /datum/pet_command/good_boy/dog
-	speech_commands = list("good dog", "хорош")
+	speech_commands = list("good dog", "С…РѕСЂРѕС€")
 
 //ORIGINAL FILE: code/modules/mob/living/basic/pets/orbie/orbie_ai.dm
 /datum/pet_command/untargeted_ability/pet_lights
-	speech_commands = list("lights", "light", "toggle", "огни", "свет", "включ")
+	speech_commands = list("lights", "light", "toggle", "РѕРіРЅРё", "СЃРІРµС‚", "РІРєР»СЋС‡")
 
 /datum/pet_command/point_targeting/use_ability/take_photo
-	speech_commands = list("photo", "picture", "image", "фото", "сними", "снять", "сыр")
+	speech_commands = list("photo", "picture", "image", "С„РѕС‚Рѕ", "СЃРЅРёРјРё", "СЃРЅСЏС‚СЊ", "СЃС‹СЂ")
 
 //ORIGINAL FILE: code/modules/mob/living/basic/pets/pet_cult/pet_cult_ai.dm
 /datum/pet_command/untargeted_ability/draw_rune
-	speech_commands = list("rune", "revival", "руна", "возро", "ожив")
+	speech_commands = list("rune", "revival", "СЂСѓРЅР°", "РІРѕР·СЂРѕ", "РѕР¶РёРІ")
 
 //ORIGINAL FILE: code/modules/mob/living/basic/slime/ai/pet_command.dm
 /datum/pet_command/point_targeting/attack/slime
-	speech_commands = list("attack", "sic", "kill", "eat", "feed", "атак", "бить", "куса", "куси", "фас", "жри", "куша")
+	speech_commands = list("attack", "sic", "kill", "eat", "feed", "Р°С‚Р°Рє", "Р±РёС‚СЊ", "РєСѓСЃР°", "РєСѓСЃРё", "С„Р°СЃ", "Р¶СЂРё", "РєСѓС€Р°")
 
 //ORIGINAL FILE: code/modules/mob/living/basic/space_fauna/regal_rat/regal_rat_actions.dm
 /datum/pet_command/point_targeting/attack/mouse
-	speech_commands = list("attack", "sic", "kill", "cheese em", "атак", "бить", "куса", "куси", "фас")
+	speech_commands = list("attack", "sic", "kill", "cheese em", "Р°С‚Р°Рє", "Р±РёС‚СЊ", "РєСѓСЃР°", "РєСѓСЃРё", "С„Р°СЃ")
 
 /datum/pet_command/point_targeting/attack/glockroach
-	speech_commands = list("attack", "sic", "kill", "cheese em", "атак", "бить", "бей", "еби", "куса", "куси", "сдохни", "умри", "фас")
+	speech_commands = list("attack", "sic", "kill", "cheese em", "Р°С‚Р°Рє", "Р±РёС‚СЊ", "Р±РµР№", "РµР±Рё", "РєСѓСЃР°", "РєСѓСЃРё", "СЃРґРѕС…РЅРё", "СѓРјСЂРё", "С„Р°СЃ")
